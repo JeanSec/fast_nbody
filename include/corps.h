@@ -1,9 +1,11 @@
+
 class Corps {
 	public :
-		m_x = 0;
-		m_y = 0;
-		m_vx = 0;
-		m_vy = 0;
+		double m_m;
+		double m_x;
+		double m_y;
+		double m_vx;
+		double m_vy;
 
 	private : 
 		void new_position();
@@ -11,6 +13,6 @@ class Corps {
 		void new_vitesse();
 
 		void calcul_acceleration();
-
+		
 
 };
