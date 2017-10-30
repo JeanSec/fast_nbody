@@ -8,6 +8,10 @@ void Corps::new_vitesse(){
 	this.m_vy = this.m_vy + this.m_vy
 }
 
-void Corps::calcul_acceleration(){
+void Corps::new_acceleration(){
+
+}
+
+void Corps::calcul_distances(Corps *mes_corps){
 
 }
